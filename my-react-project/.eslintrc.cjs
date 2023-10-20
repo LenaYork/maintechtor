@@ -16,9 +16,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    "semi": ["error", "always"],
-    "indent": ["error", 4],
-    "no-console": "warn", // предупреждение при использовании console.log и других методов 
-    "no-alert": "error", // запрет использования alert 
+    "semi": ["warn", "always"],
+    "indent": ["warn", 2],
+    "no-console": "warn",
+    "no-alert": "warn",
+    'quotes': ['warn', 'single'], 
+    'jsx-quotes': ['warn', 'prefer-double']
   },
 }

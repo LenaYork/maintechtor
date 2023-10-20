@@ -1,0 +1,12 @@
+@import '../../styles/index.scss'; 
+
+.newButton {
+    background-color: $primary-color;
+    color: $success-color;
+    padding: 15px 20px;
+    margin: 0 auto;
+
+    span {
+        color: $error-color;
+    }
+}
