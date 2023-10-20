@@ -6,12 +6,14 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   console.log("smth!");
-  alert("hey!")
+  alert("hi!")
+  console.log("ssssssssssssssss")
 
   return (
     <>
       <div>
           <div>SOme new info!</div>
+            <p>MORE TEXT</p>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
